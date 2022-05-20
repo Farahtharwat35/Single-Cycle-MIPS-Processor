@@ -19,7 +19,7 @@ Design a simple MIPS CPU Using VHDL. The proposed CPU should be able to
 perform certain instructions: R-type (AND, OR, ADD, SUB, SLT and NOR),
 I-type (lw, sw, beq, bne) and J instruction.
 
-![](./media/image1.png)
+![](./Media/image1.png)
 
 > **Test Case:**
 
