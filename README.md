@@ -28,3 +28,7 @@ I-type (lw, sw, beq, bne) and J instruction.
 
 -   After the program finishes, you should see the following sequence in
     \$s0: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 0, 1.
+
+> **Note:**
+-   When Simulating the Behavioural Modeling , when adding diffrent components to your simulation (register file ,data memory..); within the first 1000 ns the fibo series are loaded to the memory . After that , they are loaded sequentially to register 16.
+-   You can find the testbench for seperate components such as ALU and RegisterFile in addition to the Main Module.
